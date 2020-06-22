@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="design.css">
+    <title>TicTacToe</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron" style="padding-top: 10px; padding-bottom: 20px;">
+        <h1>Welcome to Tic Tac Toe</h1>
+        <button type="submit" name="button" class="btn btn-primary btn-lg" id="restrt">Restart!</button>
+      </div>
+      <h3 style=text-align:center;>To Start first choose 'X' or to strat second choose 'O'</h3>
+      <table class="Nottb" id="tMar">
+        <tr class="Nottb">
+          <th class="Nottb">Choose One</th>
+          <th class="Nottb" id="X">X</th>
+          <th class="Nottb"> </th>
+          <th class="Nottb" id="O">O</th>
+        </tr>
+      </table>
+      <table id="tbl">
+        <tr>
+          <th class="cell" id="cell1"> </th>
+          <th class="cell" id="cell2"> </th>
+          <th class="cell" id="cell3"> </th>
+        </tr>
+        <tr>
+          <th class="cell" id="cell4"> </th>
+          <th class="cell" id="cell5"> </th>
+          <th class="cell" id="cell6"> </th>
+        </tr>
+        <tr>
+          <th class="cell" id="cell7"> </th>
+          <th class="cell" id="cell8"> </th>
+          <th class="cell" id="cell9"> </th>
+        </tr>
+
+        <!-- my first way of doing -->
+        <!-- <tr>
+          <th id="c1"> </th>
+          <th id="c2"> </th>
+          <th id="c3"> </th>
+        </tr>
+        <tr>
+          <th id="c4"> </th>
+          <th id="c5"> </th>
+          <th id="c6"> </th>
+        </tr>
+        <tr>
+          <th id="c7"> </th>
+          <th id="c8"> </th>
+          <th id="c9"> </th>
+        </tr> -->
+      </table>
+      <h1 id="Winner"></h1>
+      <br><br><br><br>
+    </div>
+    <script src="JSofGame.js">
+
+    </script>
+    <!-- my first way of doing -->
+    <!-- <script src="gamejs.js">
+    </script> -->
+  </body>
+</html>

@@ -1,0 +1,36 @@
+#tMar{
+  margin: 1em auto 1em auto;
+  width:300px;
+  border-style: none;
+  font-size: 1.5em;
+}
+.Nottb{
+  border-style: none;
+  width: auto;
+  height: auto;
+}
+#X{
+  text-align: center;
+  background-color: silver;
+  border: 4px groove gray;
+  width: 2em;
+}
+#O{
+  text-align: center;
+  /* border-style:groove; */
+  background-color: silver;
+  border: 4px groove gray;
+  width: 2em;
+}
+#tbl{
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}
+#tbl th,td{
+  border: 3px solid black;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 4em;
+}
